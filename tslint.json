@@ -1,0 +1,36 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "no-unused-variable": true,
+    "no-unused-expression": true,
+    "no-use-before-declare": true,
+    "no-any": true,
+    "no-implicit-dependencies": true,
+    "no-var-requires": true,
+    "indent": [true, "spaces"],
+    "quotemark": [true, "single"],
+    "semicolon": [true, "always"],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
+    ],
+    "typedef": [true, "variable-declaration"],
+    "no-empty": true,
+    "no-return-await": true,
+    "no-floating-promises": true,
+    "no-console": [true, "log", "error", "warn"],
+    "import-blacklist": [true, "rxjs"],
+    "no-default-import": true,
+    "no-unnecessary-type-assertion": true,
+    "prefer-const": true,
+    "prefer-for-of": true
+  }
+}
