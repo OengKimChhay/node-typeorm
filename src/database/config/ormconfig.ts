@@ -16,5 +16,4 @@ const config: DataSourceOptions = {
   entities: [User, Post],
   migrations: ['src/database/migrations/*.ts']
 };
-console.log(config);
 export default config;
