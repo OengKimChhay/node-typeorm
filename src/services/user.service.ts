@@ -1,7 +1,6 @@
 import { Request } from 'express';
 import dataSource from '../database/config/data-source';
 import { User } from '../database/entity/User.entity';
-import { skip } from 'node:test';
 
 const userRepository = dataSource.getRepository(User);
 
